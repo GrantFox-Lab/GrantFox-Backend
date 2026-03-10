@@ -1,1 +1,2 @@
-console.log('Hello from GrantFox-Backend');
+const express = require('express');
+const app = express();

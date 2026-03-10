@@ -1,0 +1,1 @@
+- [2026-03-10T10:00:00] feat: project architecture initialization
