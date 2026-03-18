@@ -1,2 +1,3 @@
 - [2026-03-10T10:00:00] feat: project architecture initialization
 - [2026-03-14T10:00:00] chore: update dependencies and configuration
+- [2026-03-18T10:00:00] feat: add core protocol logic
