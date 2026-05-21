@@ -16,3 +16,4 @@
 - [2026-05-09T10:00:00] test: improve overall test coverage to 85%
 - [2026-05-13T10:00:00] feat: design and implement database schema
 - [2026-05-17T10:00:00] fix: sanitize user input to prevent injection
+- [2026-05-21T10:00:00] chore: clean up dead code and unused files
