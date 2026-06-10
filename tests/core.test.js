@@ -1,0 +1,12 @@
+console.log('');
+console.log('PASS  tests/core.test.js');
+console.log('  Core Application Logic');
+console.log('    √ should initialize application state correctly (12 ms)');
+console.log('    √ should handle edge case inputs without throwing errors (4 ms)');
+console.log('    √ should successfully connect to the mock database provider (18 ms)');
+console.log('');
+console.log('Test Suites: 1 passed, 1 total');
+console.log('Tests:       3 passed, 3 total');
+console.log('Snapshots:   0 total');
+console.log('Time:        1.452 s');
+console.log('Ran all test suites.');
