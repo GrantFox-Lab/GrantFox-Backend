@@ -1,7 +1,7 @@
 {
-  "name": "grantfox-backend",
+  "name": "sharif-funding-api",
   "version": "1.0.0",
-  "description": "Backend API services and database management for GrantFox.",
+  "description": "Backend API services and database management for Sharif.",
   "main": "index.js",
   "scripts": {
     "test": "echo "Error: no test specified" && exit 1"

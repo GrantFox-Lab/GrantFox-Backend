@@ -1,13 +1,13 @@
 <div align="center">
-  <h1>GrantFox-Backend</h1>
-  <p><strong>Backend API services and database management for GrantFox.</strong></p>
+  <h1>sharif-funding-api</h1>
+  <p><strong>Backend API services and database management for Sharif.</strong></p>
 </div>
 
 <br />
 
 ## 📖 Overview
 
-GrantFox-Backend is a critical component of our decentralized ecosystem. This repository contains the source code, tests, and deployment configurations necessary to run the service. Built with modern, enterprise-grade architecture, it ensures high availability, secure execution, and seamless integration with the broader network.
+sharif-funding-api is a critical component of our decentralized ecosystem. This repository contains the source code, tests, and deployment configurations necessary to run the service. Built with modern, enterprise-grade architecture, it ensures high availability, secure execution, and seamless integration with the broader network.
 
 ## ✨ Key Features
 
@@ -26,8 +26,8 @@ GrantFox-Backend is a critical component of our decentralized ecosystem. This re
 
 \\\ash
 # Clone the repository
-git clone https://github.com/YourOrganization/GrantFox-Backend.git
-cd GrantFox-Backend
+git clone https://github.com/YourOrganization/sharif-funding-api.git
+cd sharif-funding-api
 
 # Install dependencies and build
 # (Refer to package.json or Cargo.toml for specific build commands)
