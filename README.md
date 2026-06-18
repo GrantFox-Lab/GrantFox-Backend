@@ -1,40 +1,18 @@
-<div align="center">
-  <h1>sharif-funding-api</h1>
-  <p><strong>Backend API services and database management for Sharif.</strong></p>
-</div>
+# sharif-funding-api
 
-<br />
+An Express.js REST API for tracking off-chain metadata associated with the Soroban escrow contracts, such as crowdfunding campaign titles, descriptions, and funding targets.
 
-## 📖 Overview
+## API Endpoints
 
-sharif-funding-api is a critical component of our decentralized ecosystem. This repository contains the source code, tests, and deployment configurations necessary to run the service. Built with modern, enterprise-grade architecture, it ensures high availability, secure execution, and seamless integration with the broader network.
+- `GET /api/campaigns` - List all active and funded campaigns.
+- `POST /api/campaigns` - Create a new campaign.
+- `PATCH /api/campaigns/:id/status` - Update campaign status.
+- `GET /health` - API health check.
 
-## ✨ Key Features
+## Setup
+```bash
+npm install
+npm run dev
+```
 
-- **Robust Architecture**: Designed to handle high-throughput and scale horizontally.
-- **Secure by Default**: Follows industry-standard security practices and comprehensive auditing guidelines.
-- **Extensible Integration**: Exposes clean, well-documented interfaces for third-party extensions.
-- **Comprehensive Testing**: Backed by a strict CI/CD pipeline enforcing an 85%+ code coverage requirement.
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Make sure you have the latest stable versions of our core toolchains (e.g., Node.js, Rust/Cargo) installed.
-- Ensure Docker is installed for running localized integration environments.
-
-### Local Installation
-
-\\\ash
-# Clone the repository
-git clone https://github.com/YourOrganization/sharif-funding-api.git
-cd sharif-funding-api
-
-# Install dependencies and build
-# (Refer to package.json or Cargo.toml for specific build commands)
-\\\
-
-## 🤝 Contributing
-We welcome contributions from the community! Please read our [Contributing Guidelines](./CONTRIBUTING.md) to get started. Before submitting a Pull Request, ensure that you have reviewed our [Code of Conduct](./CODE_OF_CONDUCT.md).
-
-## 📄 License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+Runs on port 3001 by default.

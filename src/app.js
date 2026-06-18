@@ -1,19 +1,25 @@
 const express = require('express');
 const cors = require('cors');
+const fundingRoutes = require('./routes/funding');
 
 const app = express();
 
 app.use(cors());
 app.use(express.json());
 
-const campaignRoutes = require('./routes/campaignRoutes');
+app.use('/api/campaigns', fundingRoutes);
 
-// Basic health check endpoint
+// Health check endpoint
 app.get('/health', (req, res) => {
-    res.status(200).json({ status: 'ok', service: 'sharif-funding-api' });
+  res.json({ status: 'ok', timestamp: new Date().toISOString() });
 });
 
-// Mount routers
-app.use('/api/v1/campaigns', campaignRoutes);
+const PORT = process.env.PORT || 3001;
+
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`Funding API listening on port ${PORT}`);
+  });
+}
 
 module.exports = app;
